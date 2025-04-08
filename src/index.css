@@ -1,0 +1,12 @@
+ * {
+  margin: 0;
+}
+header{
+  background-color: #f55a5a;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffff;
+
+}
