@@ -2,6 +2,8 @@ import React from 'react';
 import Header from './Header'
 import Main from './main';
 import data from './data.js'
+import './App.css'
+import backgroundImage from './assets/laguna.jpg'
 
 export default function App() {
   const activity = data.map(element => {
@@ -19,10 +21,16 @@ export default function App() {
   return (
     <>
     <Header />
-    {activity}
-    
+    <div className='content-with-background'>
+      <div className="background-image">
+        <img src={backgroundImage} alt="Laguna" />
+      </div>
+      
+      <div className='activity'>
+        {activity}
+      </div>
+      </div>
     </>
-  )
+  );
 }
-
 

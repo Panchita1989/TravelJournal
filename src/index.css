@@ -1,8 +1,9 @@
  * {
   margin: 0;
 }
+
 header{
-  background-color: #f55a5a;
+  background-color: #0d7ca8;
   height: 55px;
   display: flex;
   align-items: center;
@@ -10,3 +11,35 @@ header{
   color: #ffff;
 
 }
+article.journal-entry {
+  display: flex;
+  margin-bottom: 36px;
+  margin-top: 30px;
+  width: 50%;
+}
+article.journal-entry .main-image-container {
+  width: 125px;
+  height: 168px;
+  overflow: hidden;
+  border-radius: 5px;
+  flex-shrink: 0;
+  margin-right: 19px;
+  margin-left: 30px;
+}
+.main-image{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  image-rendering: crisp-edges;
+}
+.info-container a{
+  display: block;
+}
+.info-container  * {
+  margin-bottom: 10px;
+}
+
+
+
+  
+

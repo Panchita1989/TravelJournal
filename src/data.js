@@ -1,7 +1,13 @@
+import sailbacalar from './assets/sailbacalar.jpg'
+import tigre from './assets/tigre.jpg'
+import kayak from './assets/kayak.png'
+import standUp from './assets/standup.png'
+import catrina from './assets/catrina.jpg'
+
 export default [
     {   
         img:{
-            src: 'C:\Users\franc\OneDrive\Desktop\travelJournal\TravelJournal\src\assets\sailbacalar.jpg',
+            src: sailbacalar,
             alt: 'Sail Bacalar'
         },
         titel: 'Sail Bacalar',
@@ -15,43 +21,43 @@ export default [
     },
     {
         img:{
-            src: '',
-            alt: ''
+            src: tigre,
+            alt: 'tigre'
         },
         titel: 'Tigre Pétanque',
-        Reserve: '',
+        reserve: 'https://tigrebacalar.com/',
         Location: '',
-        Text: ''
+        text: 'Tigre Pétanque in Bacalar is a laid-back bar with a French-Mexican vibe, known for its pétanque courts, tasty cocktails, and friendly atmosphere. It’s a great spot to hang out with friends, enjoy drinks, and play a casual game of pétanque. Popular with both locals and travelers, especially in the evenings.'
     },
     {
         img:{
-            src: '',
-            alt: ''
+            src: kayak,
+            alt: 'kayak'
         },
         titel: 'Kayak',
-        Reserve: '',
+        reserve: 'https://wa.me/529831161782',
         Location: '',
-        Text: ''
+        text: "Paddle the mesmerizing turquoise waters of Bacalar Lagoon on a relaxing kayak tour. Discover hidden corners, admire the stunning seven shades of blue, and connect with the serene natural beauty of this unique paradise."
     },
     {
         img:{
-            src: '',
-            alt: ''
+            src: standUp,
+            alt: 'standUp'
         },
         titel: 'StanUp Paddel',
-        Reserve: '',
+        reserve: 'https://wa.me/529831161782',
         Location: '',
-        Text: ''
+        text: "Witness the breathtaking sunrise paint the Bacalar Lagoon with vibrant colors on a tranquil stand-up paddleboard tour. Glide across the mirror-like water as the day awakens, experiencing the serene beauty of the 'Lagoon of Seven Colors' in its most magical light."
     },
     {
         img:{
-            src: '',
+            src: catrina,
             alt: ''
         },
         titel: 'La Catrina',
-        Reserve: '',
+        reserve: 'https://www.instagram.com/lacatrinabacalar/?hl=de',
         Location: '',
-        Text: ''
+        text: "La Catrina Bacalar is a popular spot in Bacalar known for its lively atmosphere, where music and dancing create a fun social scene. They offer a variety of drinks to enjoy in their colorful and festive setting, making it a great place for a night out."
     },
 
     
